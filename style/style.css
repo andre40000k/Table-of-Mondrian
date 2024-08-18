@@ -6,42 +6,104 @@
 
 .container {
   width: 90vw;
-  height: 50vw;
+  height: 50vh;
   background-color: aquamarine;
   margin: 5vh auto;
-
   display: flex;
-  justify-content: center; /* Горизонтальное выравнивание */
+  justify-content: center;
   align-items: center;
 }
 
+/* Таблица */
+
 .table-mondrian {
   border-spacing: 0px;
-  width: calc(90vw - 10%);;
+  width: 90%;
+  height: 90%;
 }
 
 .table-mondarin-element {
-  border: 4px solid black;
-  height: 60px;
+  border: 5px solid black;
 }
+
+/* Цвета ячеек */
 
 .white {
   background-color: white;
 }
+
 .red {
   background-color: #d40920;
 }
+
 .blue {
   background-color: #013ca6;
 }
+
 .yellow {
   background-color: #f6d200;
 }
+
 .black {
   background-color: black;
 }
 
-.width-last-colomn
-{
-    width: calc(100% / 5.4722);
+/* Высота ячеек */
+
+.height-first-row {
+  height: calc(100% / 9.02777778);
+}
+
+.height-second-row {
+  height: calc(100% / 3.91566265);
+}
+
+.height-third-row {
+  height: calc(100% / 3.89221557);
+}
+
+.height-fourth-row {
+  height: calc(100% / 8.44155844);
+}
+
+.height-fifth-row {
+  height: calc(100% / 8.66666667);
+}
+
+.heigh-sixth-row {
+  height: calc(100% / 14.037037);
+}
+
+.heigh-seventh-row {
+  height: calc(100% / 20.0740741);
+}
+
+/* Ширина ячеек */
+
+.width-first-colomn {
+  width: calc(100% / 8.78082192);
+}
+
+.width-second-colomn {
+  width: calc(100% / 6.20224719);
+}
+
+.width-third-colomn {
+  width: calc(100% / 6.04395604);
+}
+
+.width-fourth-colomn {
+  width: calc(100% / 6.48484848);
+}
+
+.width-fifth-colomn {
+  width: calc(100% / 10.22330097);
+}
+
+.width-sexth-colomn {
+  width: calc(100% / 10.47474747);
+}
+
+.width-seventh-colomn {
+  width: calc(100% / 21.3666667);
 }
