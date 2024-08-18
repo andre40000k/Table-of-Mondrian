@@ -5,8 +5,8 @@
 }
 
 .container {
-  width: 90vw;
-  height: 50vh;
+  width: 50vw;
+  height: 90vh;
   background-color: aquamarine;
   margin: 5vh auto;
   display: flex;
